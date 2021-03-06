@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <script language="javascript">
+        function show_hari() {
+            //membuat variabel bertipe array untuk nama hari
+            var NamaHari = new Array("Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu");
+            //membuat variabel bertipe array untuk nama bulan
+            var NamaBulan = new Array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember");
+            var sekarang = new Date();
+            var HariIni = NamaHari[sekarang.getDay()];
+            var BulanIni = NamaBulan[sekarang.getMonth()];
+            var TglSekarang = sekarang.getDate();
+            var TahunIni = sekarang.getFullYear();
+            document.write(HariIni + ", " + TglSekarang + " " + BulanIni + " " + TahunIni);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="website">Portal Anime Lovers</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="anime.html">Anime</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="kontak.html">Contacts</a></li>
+                <li><a href="profil.html">About me</a></li>
+            </ul>
+        </div>
+
+        <div class="banner">
+        </div>
+
+        <div class="content">
+            <p>
+                <font color="blue">Hari Ini: </font>
+                <script>
+                    show_hari();
+                </script>.</p>
+            <h3>Yōkoso Jitsuryoku Shijō Shugi no Kyōshitsu e</h3>
+            <p>Classroom of the Elite (ようこそ実力至上主義の教室へ Yōkoso Jitsuryoku Shijō Shugi no Kyōshitsu e, "Selamat datang di Kelas Doktrin Kemampuan Elit") adalah seri novel ringan Jepang yang ditulis oleh Shōgo Kinugasa dan diilustrasikan oleh Shunsaku Tomose.
+                Adaptasi manga oleh Yuyu Ichino mulai diserialisasi di Monthly Comic Alive pada Media Factory tanggal 27 Januari 2016. Adaptasi serial televisi anime oleh Lerche ditayangkan mulai Juli hingga September 2017. [source : wikipedia]</p>
+            <p>Anime yang sering disebut Classroom of the elite atau kalau judul panjangnya Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e bercerita mengenai sekolah yang ternama dan dibiayai pemerintah yang lulusannya dijamin bisa mendapatkan kerja atau
+                kuliah di tempat yang mereka inginkan. Sekolah yang bernama koudo Ikusei ini menjadikan kepantasan sebagai tolak ukur para muridnya. Sekolah ini memiliki sistem yang dinamakan S System yang akan menilai kepantasan para murid dan mengeluarkan
+                nilai-nilai yang mempengaruhi nilai siswa dan tentu saja kelas dimana dia berada (catatan : tidak ada perubahan susunan kelas, dimana selama 3 tahun kau akan tetap berada di satu kelas yang sama dengan temanmu berikut juga dengan wali
+                kelasnya.)
+            </p>
+            <p>
+                <a href="http://animepeji.blogspot.com/2018/02/sinopsis-anime-youjitsu.html#:~:text=Anime%20yang%20sering%20disebut%20Classroom,di%20tempat%20yang%20mereka%20inginkan.">Selengkapnya..</a>
+            </p>
+        </div>
+
+        <div class="footer">
+            <p class="made">Copyright 2021 | Fathimatuzahro</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
