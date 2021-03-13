@@ -14,8 +14,8 @@
     echo "Hello World!";
     EcHo "Hello World!";
     ?>
-<!-- echo di atas tdk terpengaruh dg key sensitive -->
-<!-- variabel di bawah ini terpengaruh key sensitive -->
+<!-- echo di atas tdk terpengaruh dg case sensitive -->
+<!-- variabel di bawah ini terpengaruh case sensitive -->
     <?php
     $color = "red";
     $COLOR = "orange";
