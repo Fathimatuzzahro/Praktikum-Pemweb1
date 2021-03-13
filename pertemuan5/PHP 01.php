@@ -156,6 +156,7 @@ usage is rare. while print can take one argument. echo is marginally faster than
     print "Study PHP at " . $txt2 . "<br>";
     print $x + $y;
     ?>
+    
 
 </body>
 </html>
