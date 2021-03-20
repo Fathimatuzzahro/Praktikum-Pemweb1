@@ -252,8 +252,8 @@
                 Bunda pernah berpesan <br>
                 Tak ada apa-apa yang berharga didunia ini nak, <br>
                 kecuali ketuguhanmu akan agamamu <br>";
-    $diubah = array('senja', 'kamu', 'emaskah', 'kedamaian');
-    $pengubah = array('malam', 'aku', 'uangkah', 'kemakmuran');
+    $diubah = array('senja', 'kamu', 'Emaskah', 'kedamaian');
+    $pengubah = array('malam', 'aku', 'Uangkah', 'kemakmuran');
     $katabaru = str_replace($diubah, $pengubah, $katalama);
     echo "kata lama <br>";
     echo "<hr>";
