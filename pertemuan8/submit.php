@@ -16,7 +16,7 @@
     $jumlah = $_GET['jumlah'];
     $barangpesanan = $_GET['barangpesanan'];
     echo "Anda memesan " . $jumlah . " " . $barangpesanan . ".<br>";
-    echo "Terima kasih atas kesediaan Anda memesan barang dari kami!";
+    echo "Terima kasih atas kesediaan Anda memesan barang dari kami! Sampai Jumpa Lagi!";
 ?>
 <!-- 
     Perbedaanya adalah pada URL, Nampak nilai yang ada di dalam vaariabel barang pesanan 
