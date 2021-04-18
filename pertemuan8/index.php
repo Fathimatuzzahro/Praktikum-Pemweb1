@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <h2>Toko Alat Tulis dan Kantor AAA</h2>
+    <h2>Toko Alat Tulis dan Kantor FFF</h2>
     <form action="submit.php" method="post">
         <select name="barangpesanan">
             <option>Buku tamu</option>
